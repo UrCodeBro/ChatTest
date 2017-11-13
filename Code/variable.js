@@ -10,16 +10,29 @@ var var1 = "id,first_name,last_name,email,gender,ip_address
 8,Milton,Armatage,marmatage7@nifty.com,Male,220.123.5.72
 9,Faulkner,Jardein,fjardein8@statcounter.com,Male,250.106.34.40
 10,Luci,End,lend9@angelfire.com,Female,201.204.171.58"
-
+console.log(var1);
 var var2 = var1.split(" ");
+console.log(var2);
 var categories = var2[0].split(",");
+console.log(categories);
 var line1 = var2[1].split(",");
+console.log(line1);
 var line2 = var2[2].split(",");
+console.log(line2);
 var line3 = var2[3].split(",");
+console.log(line3);
 var line4 = var2[4].split(",");
+console.log(line4);
 var line5 = var2[5].split(",");
+console.log(line5);
 var line6 = var2[6].split(",");
+console.log(line6);
 var line7 = var2[7].split(",");
+console.log(line7);
 var line8 = var2[8].split(",");
+console.log(line8);
 var line9 = var2[9].split(",");
+console.log(line9);
 var line10 = var2[10].split(",");
+console.log(line10);
+//This code is a trainwreck
