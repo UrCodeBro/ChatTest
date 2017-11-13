@@ -1,3 +1,3 @@
 $(document).ready(function() {
-        alert('jQuery Test');
+        $.get("Files/MOCK_DATA.csv");
 });
